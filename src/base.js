@@ -1,7 +1,8 @@
 import * as firebase from "firebase/app";
 import "firebase/auth";
 
-// Setting up firebase app with .env variables
+// init Firebase App using firebase.initializeApp
+// Sets up firebase app with .env variables
 
 const app = firebase.initializeApp({
 	apiKey: process.env.REACT_APP_FIREBASE_KEY,
