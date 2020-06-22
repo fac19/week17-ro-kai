@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/firebase-quest/node_modules
+firebase-quest/
 
 # testing
 /coverage
